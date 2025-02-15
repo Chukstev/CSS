@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Figma Design</title>
+  </head>
+  <body>
+    <main>
+      <!-- memo section -->
+      <section class="memo">
+        <div>
+          <img
+          src="Assets/Images/WhatsApp_Image_2025-01-13_at_00.04.52-removebg-preview.png"
+        />
+        <h1>For Individuals</h1>
+        <p>
+          <!-- for desktop interface -->
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+        <p>
+          <!-- for mobile interface -->
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+        </div>
+      </section>
+      <!-- form section -->
+        <section class="form_Section">
+          <form action="/submit" method="post">
+            <div class="grid-column">
+              <label for="FN">First Name</label><br />
+              <input type="text" id="FN" placeholder="Tolu" required />
+            </div>
+            <div class="grid-column">
+              <label for="LN">Last Name</label><br />
+              <input type="text" id="LN" required />
+            </div>
+            <div class="grid-column">
+              <label for="gender">Gender</label><br />
+              <select id="gender">
+                <option value="">Select here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="grid-column">
+              <label for="birth">Date of Birth</label><br />
+              <input type="date" id="birth" required />
+            </div>
+            <div class="grid-column">
+              <label for="kg">Weight (KG)</label><br />
+              <input type="number" id="kg" required />
+            </div>
+            <div class="grid-column">
+              <label for="cm">Height</label><br />
+              <input type="number" id="cm" required />
+            </div>
+            <div class="span">
+              <label for="activity">Activity Level</label><br />
+              <select id="activity">
+                <option value="">Select here</option>
+              </select>
+            </div>
+            <div class="span">
+              <label for="password">Password</label><br />
+              <input type="password" id="password" required />
+            </div>
+            <button type="submit">Register</button>
+            <p>
+              By clicking Register, you agree to our
+              <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+            </p>
+          </form>
+        </section>
+    </main>
+  </body>
+</html>
